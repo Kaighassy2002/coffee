@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Day</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/3fe1adcfd7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="header">
+          <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                               
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Blog/News</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            
+          </nav>
+    
+        <div class="Container">
+            <div class="div">
+    
+            </div>
+           <div>
+               <h3 class="main-head">Just brewed <span class="main-head-span">happiness</span>  in a cup!</h3>
+               <button onclick="redirectbtn()" id="orderBtn" class="hearder-btn " >Order Now</button>
+           </div>
+        </div>
+     </div>
+
+    <div id="menu" class="order">
+      <h3 class="order-h">Shop me... <i class="fa-solid fa-face-smile-wink order-h"></i></h3>
+      <div class="order-items">
+        <div class="catagories">
+            <button id="bestseller"  class="catagories-btn" type="button">Best Seller</button>
+            <button id="moreOption" class="catagories-btn" type="button">More Options</button>
+           
+            
+
+        </div>
+      <div class="order-contaniner">
+        <div id="celler" class="bestceller">
+            <div class="items">
+                <img class="order-img" src="https://www.collinsdictionary.com/images/full/blackcoffee_114233497_1000.jpg" alt="Black Coffee">
+                <h5>Black Coffee</h5>
+                <p>₹70.00</p>
+                <button id="order-btn" type="button">Buy Now</button>
+    
+            </div>
+            <div class="items">
+                <img class="order-img" src="https://www.foodlovinfamily.com/wp-content/uploads/2022/02/Coffee-with-condensed-milk.jpg" alt="Coffee">
+                <h5>Coffee</h5>
+                <p>₹80.00</p>
+                <button id="order-btn" type="button">Buy Now</button>
+    
+            </div>
+            
+            <div class="items">
+                <img class="order-img" src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Caramel-iced-coffee-f73307b.png?quality=90&resize=700,466" alt="cold coffee">
+                <h5>Cold coffee</h5>
+                <p>₹110.00</p>
+                <button id="order-btn" type="button">Buy Now</button>
+    
+            </div>
+            <div class="items">
+                <img class="order-img" src="https://shewearsmanyhats.com/wp-content/uploads/2015/03/irish-coffee-3.jpg" alt="iresh Coffee">
+                <h5>Iresh Coffee</h5>
+                <p>₹200.00</p>
+                <button id="order-btn" type="button">Buy Now</button>
+    
+            </div>
+            <div class="items">
+                <img class="order-img" src="https://theobroma.in/cdn/shop/products/Cappucino3.jpg?v=1631970582" alt="cappuccino coffee">
+                <h5>Cappuccino </h5>
+                <p>₹190.00</p>
+                <button id="order-btn" type="button">Buy Now</button>
+    
+            </div>
+
+        </div>
+           <div id="more" class="hidden">
+               <div  class="more">
+                
+                    <div class="items">
+                        <img class="order-img" src="https://www.foodlovinfamily.com/wp-content/uploads/2022/02/Coffee-with-condensed-milk.jpg" alt="Coffee">
+                        <h5>Coffee</h5>
+                        <p>₹80.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://www.collinsdictionary.com/images/full/blackcoffee_114233497_1000.jpg" alt="Black Coffee">
+                        <h5>Black Coffee</h5>
+                        <p>₹70.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://shewearsmanyhats.com/wp-content/uploads/2015/03/irish-coffee-3.jpg" alt="iresh Coffee">
+                        <h5>Iresh Coffee</h5>
+                        <p>₹200.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://theobroma.in/cdn/shop/products/Cappucino3.jpg?v=1631970582" alt="cappuccino coffee">
+                        <h5>Cappuccino </h5>
+                        <p>₹190.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Caramel-iced-coffee-f73307b.png?quality=90&resize=700,466" alt="cold coffee">
+                        <h5>Cold coffee</h5>
+                        <p>₹110.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLwXQ_4uA1ogvkw8XwZsAOgpn_DzK0D_tIA&usqp=CAU" alt="Cold brew">
+                        <h5>Cold brew</h5>
+                        <p>₹170.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://m.media-amazon.com/images/I/810l1kcIRnL._AC_UF350,350_QL80_.jpg" alt="Turkish coffee">
+                        <h5>Turkish coffee</h5>
+                        <p>₹210.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://pastaevangelists.com/cdn/shop/articles/Affogato_1200x1200.png?v=1621613046" alt="affogato coffee">
+                        <h5>Affogato coffee</h5>
+                        <p>₹210.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://slowthecookdown.com/wp-content/uploads/2021/06/chocolate-coffee-milkshake-10.jpg" alt="Shake">
+                        <h5>Shake</h5>
+                        <p>₹160.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+                    <div class="items">
+                        <img class="order-img" src="https://celebratingsweets.com/wp-content/uploads/2021/06/Coffee-Ice-Cream-1-2.jpg" alt="Ice cream">
+                        <h5>Ice cream</h5>
+                        <p>₹140.00</p>
+                        <button id="order-btn" type="button">Buy Now</button>
+            
+                    </div>
+               </div>
+           </div>
+           <div class="cart">
+
+           </div>
+      </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <h4>About Us</h4>
+                    <p>Your coffee experience starts here. Discover our passion for quality coffee and exceptional service.</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h4>Contact Us</h4>
+                    <p><strong>Address:</strong> Coffee Shop </p>
+                    <p><strong>Phone:</strong> 9087654321</p>
+                    <p><strong>Email:</strong> kaighassysuresh@gmail.com</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<script src="./coffe.js"></script>
+</html>
